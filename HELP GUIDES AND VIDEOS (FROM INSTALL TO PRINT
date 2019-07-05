@@ -1,0 +1,146 @@
+CALIBRATION TEST
+  Do you find yourself not getting parts to fit properly, coming out too small too large. 
+  Well fret no more, here is a test that can assist with that and main other things if you know what to look for.
+  https://www.thingiverse.com/thing:3707798. 
+  
+  I would add the context of the test here... buuuuutttttt... it is quite long and details every part of the test 
+  and certain design aspects of the test. So again follow the link to the test. not for those who want to rush everything 
+  with a fast or small test print of whatever. Greatness comes with time and hard work, kind of like this test model. 
+  ain here is the link. https://www.thingiverse.com/thing:3707798
+  
+  Cleaning and Preventive Maintenance Checks (CPMC)
+
+I will not get deep into every detail on how, what, when and why to clean certain things, or why it is done that way. 
+Check the links for cleaning tips/ methods.
+
+How to Unclog a 3D Printer Nozzle
+https://www.matterhackers.com/news/how-to-unclog-a-3d-printer-nozzle
+
+Ultimaker has a great walkthrough of nearly the whole printer being cleaned (It is one of their in the example) 
+https://ultimaker.com/en/resources/23131-clean-the-printer
+
+BOWDEN TUBE CLEANING 
+https://ultimaker.com/en/resources/36113-how-to-clean-the-bowden-tube
+
+ATOMIC METHOD FOR CLOGS
+https://ultimaker.com/en/resources/19510-how-to-apply-atomic-method
+
+So there are way too many resources for me to sit here and list them all out. So let get specific to the Ender 3 
+and variants.
+
+Check for loose filament debris. Being that we use v-slots and wheels, filament can and get caught up in the extrusions 
+and cause issues with the machines movement, mostly affecting surface quality, layers shifts etc. From time to time look 
+between the grooves and the wheels of your machine. Move the X and Y planes back and forth/ side to side when steppers 
+are disabled and feel for any abnormal feel to the movement. If it isn't a smooth ride from end to end, there is 
+something amiss. Either debris or a bad wheel.
+
+I prefer to clean my nozzle after every print. I even go as far as to wipe the nozzle with acetone while preheated, to 
+remove any unseen filament that could cause more to stick to it. (I rarely have anything stick to the nozzle, as 
+depicted in almost all my photo where the nozzle is present.)
+
+Clean your friggin bed surface.
+
+If you use tape, replace when it first rips, the integrity is compromised and may rip more when removing a print 
+(I have used tape and I don't recommend it due to the hassles that come along.)
+
+Glass beds: depending on your choice of adhesive, it can vary how to clean. IPA (90% +) is a must, it's great at 
+getting rid of dirt and grease and giving a very clean surface.
+
+Those with hairspray/ glue/ abs juice etc. on glass... eehhhh depending on how often you print and apply a light dusting 
+of the bed before or after prints.... I recommend cleaning it every 2 weeks, or when prints start to leave impression 
+on the beds surface.
+
+Glass w/ PEI: I say clean every few prints with IPA, then once every 1-2 weeks you clean with acetone.
+DO NOT GLASS THE ACETONE DIRECTLY ON THE PEI, IT WILL DEGRADE THE SURFACE AND RUIN IT.
+
+Clean you fans. It could be just my printer’s location, but I see more dust on those fans than I do anywhere else. Either 
+way clean, dust builds up, particles drop off and get on the print the bed other places etc. I recommend IPA and cotton 
+swabs, q-tips, etc.
+
+Clean your extruder and gear. We should all know why this needs to be done. Use a small tooth brush of sorts and 
+compressed air, clean to gear blow it out.
+
+Like I said this is a lot more to "CPMC" of your machines, but this is a good start. Check this guide out for a fix 
+regarding cleaning the z axis lead screw below in the user fixes section (photos on this guide as well.
+
+Got bored and looked around on Facebook at the official Ender 3 group, and found something, IMO, that many of you could/ 
+should take a look at this as well.
+
+Enjoy the loooooooong read. (See attached PDF) Full disclosure TL/DR
+
+So I thought I would add a pretty good assembly video, which I followed and have had none of the common little issues. 
+This along with some of the other links below have help me and others. So check it out if you haven't yet. 
+https://youtu.be/me8Qrwh907Q
+
+Reddit link for Recommended fixes and upgrades
+https://www.reddit.com/r/3Dprinting/wiki/newguideender3
+
+Another great reference regarding printer alignment which many of you find useful
+https://www.youtube.com/watch?v=xnzNd_FIMKY
+
+Another guide for assembly from makersteve, just a different approach with a few different steps
+https://makersteve.com/2018/08/25/ultimate-build-guide-for-creality-ender-3-step-by-step-a-makersteve-special-report/
+
+FOR THOSE WITH Z AXIS BINDING ISSUES / makersteve
+https://makersteve.com/2018/08/24/ender-3-z-axis-binding-fix-bring-a-basic-stringing-test/
+
+FOR THOSE WITH COMPRESSION/ PUSH FITTING ISSUES OR JUST LOOKING TO SAY TO CHANGE THEM FROM STOCK / makersteve
+https://makersteve.com/2019/01/04/a-tale-of-eight-enders-maker-steves-bowden-edition-compression-fitting-fix/
+
+EXTRUDER UPGRADE AND POSSIBLE UNDER EXTRUSION FIX / makersteve -
+https://makersteve.com/2019/03/19/a-tale-of-eight-enders-aluminum-extruder-upgrade
+
+Another guide, this one is regarding the XT-60 connectors which connect from the PSU to the Control boards main PWR 
+makersteve - https://makersteve.com/2019/04/16/safety-first-replace-those-bad-xt60-connectors-ender-3-fix/
+
+Next link is not a troubleshooting link but is still good to have the ENDER 3 Github info
+https://github.com/Creality3DPrinting/Ender-3
+
+REPRAP IS YOUR FRIEND, GET FAMILIAR WITH IT
+TROUBLESHOOTING LINKS LISTED BELOW
+Generic Troubleshooting - https://reprap.org/wiki/Troubleshooting
+Print Specific Troubleshooting -
+https://reprap.org/wiki/Print_Troubleshooting_Pictorial_Guide
+Extrusion Issues - https://reprap.org/wiki/Inconsistent_Extrusion_Troubleshooting_Guide
+Calibration Fun - https://reprap.org/wiki/Calibration
+Heated Bed - https://reprap.org/wiki/Heated_Bed
+Better fans for part cooling - https://www.reddit.com/r/3Dprinting/comments/axnkws/replacing_your_hot_end_fans_focus_on_the_ender3/
+More Calibration fun - https://www.thingiverse.com/thing:3707798
+
+ADVANCED BED LEVELING
+I recommend this to anyone who has had or has issues with the bed getting leveled or is just plain tired for 
+leveling at any time. I personally do not believe in ABL devices, they are Band-Aids to the actual issue. 
+If you haven't heard of it or just have not cared to do this next step you should. 
+*https://www.thingiverse.com/thing:3415460 and pair it with this to complete the conversion 
+https://www.thingiverse.com/thing:3193722.**
+
+After these changes were made on my E3's or my other printer formerly known as an A8(still have just not used and
+halfway disassembled), I have what I like to call walk away printers. I press print and walk away, without fear 
+of a bad first layer. Check on the printer after a few minutes, if I'm still around, and if all looks good 
+(whether still on the first layer or not) I let it rock-out.
+
+derWaldschrat provided this information here regarding bed leveling. So if some of you cannot get a good bed level 
+no matter what they do, check the following link. It is well documented, short, clear and concise, and well presented 
+and delivered. https://docs.google.com/document/d/10vsq-cN722SfCyX4edZYfuxIOAc-E5zJBaB7jsbepQI
+
+the second link is specifically for the Ender 3. I have done this on both my E3's, I use double thumb-wheels with nyloc 
+nuts and no springs. I have added a link for a printed thumbwheel with a captive nut for stiffer leveling wheels that 
+do not spin off own their own printing. Here they are https://www.thingiverse.com/thing:3638778
+
+FOR PRINTING ON BLUE TAPE TIPS
+Now the following information is a little dated, albeit a few years old it is still very valid and well explained, 
+more so than some guides with more recent information as most are just recycled or copy pasted… (I will probably 
+catch shit for this) but like all3dp, where for articles are links and such from other sites and guides JUST LIKE 
+THE ONE YOU ARE READING!!!!
+
+This is the link to the whole site http://www.desiquintans.com/3dplog/ and I added the direct links to specific 
+information that should be looked into for advice OR issue resolutions.
+
+DISCLAIMER: THIS IS NOT ENDER SPECIFIC INFORMATION
+BLUE TAPE: http://www.desiquintans.com/bluetape
+RINGING: http://www.desiquintans.com/ringing
+MORE BED LEVELING: http://www.desiquintans.com/3dplog/3
+MOOOORE BED LEVELING: http://www.desiquintans.com/3dplog/19
+FANS AND COOLING: http://www.desiquintans.com/coolingtests & http://www.desiquintans.com/coolingtests2
+FLOW RATE: http://www.desiquintans.com/flowrate
+TOOLS OF THE TRADE: http://www.desiquintans.com/3dtools (NOT ALL ARE NECESSARY, BUT YOU CAN PICK AND CHOOSE FOR YOURSELF)
