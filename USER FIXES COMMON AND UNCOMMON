@@ -1,0 +1,84 @@
+USER: Jree012
+"A Little Empty"
+I have been fighting under extrusion for a while now but now the infill that is not touching the walls is under extruded and 
+the walls have some gaps too. All my prints start off perfectly even the infill is fine for the first 2 cm but then it starts 
+to go wrong. I have changed the print temperatures, infill speeds, wall speeds, cleaned the hot end, replaced the nozzle, and 
+lowered acceleration all to no effect. See the picture as it is clear that it starts off well then deteriorates. I would be 
+thankful for any advice.
+
+(Photo of the issue)
+https://cdn.thingiverse.com/assets/0c/f5/45/1f/07/20190504_105823.jpg
+
+Resolution by @AsikDrone
+"Bud I believe there is moisture in your filaments. Hydrolysis has more than likely occurred, I have had a similar issue for 
+a few weeks now, and I opened a new roll of filament and BAMM! I got great prints again, I then took the main roll giving me 
+grief to the oven and left it there on 160 degree for 14 hours and now that roll prints amazing as well... dude when all else 
+fails, check for moisture in your filaments..."
+
+USER: TheMagicalC
+"The Pry and Tighten"
+Something I'd like you to add to help others (as I experienced this problem) is that if your prints come out oblong or sort of 
+stretched along a diagonal, it means your X-Axis belt needs tightening. If you have difficulty tightening it with your hands, 
+you can put an Allen wrench between the roller at the end of the x-axis bar and the bar itself and lever the roller farther 
+ut with the Allen wrench, and tighten the screws with a different wrench once it reaches optimal tightness. It should twang a 
+little bit if you pluck it.
+
+Thanks for your work helping the Ender 3 community.
+
+USER: BoothyBoothy
+"Toe the Line"
+X Axis Drive Belt Not Parallel to Extrusion
+I had an issue on my Ender 3 Pro where the X Axis drive belt was not running parallel to the extrusion. After a lot of 
+investigation in turned out that the tensioner assembly plate was slightly bent. Using a shim between the plate and the 
+extrusion rectified this issue (see attached images from original message on this thingi and also on the original post)
+
+USER: Ender3Guy
+"The Straight and Narrow"
+Personally I probably had one of the worst Enders ever sold. I spent months trying to figure out why the bed wouldn't level 
+when it was already flat. The front right and rear left corners were perpetually too high Finally, DerWaldschrat (I think 
+that's how you spell his username) pointed out that it had to be a warped Y axis extrusion. Sure enough, it leveled perfectly 
+after replacing the extrusion.
+
+USER: SHENKOE (wait that's me)
+"The Rub-A-Dub-Dub"
+Ohhh Nooooo (in my Family Guy voice) I have under extrusion. Why could this be happening I just printed something and 
+switched out filament, now it under extrudes.
+Ender 3 (obviously)
+Micro Swiss All Metal Hotend w/ 0.4mm standard steel nozzle
+Hatchbox, Esun, and CC3D for PLA / Sunlu for PLA+
+Capricorn XS PTFE Tubing
+stock extruder with 3rd party push fittings
+
+So I checked the nozzle clear, did cold/ atomic pulls with white filament to be sure all was clean. tightened the nozzle, 
+removed the nozzle, removed the heat break from the sink and checked interior walls, all clean, checked tube seems good, a 
+little worn from use on 2 printers, but still good. Checked extruder assemble, there is tension, but there could be more.
+Tested first layer every time I completed a step, every time it would under extrude. So I decided to swap the PTFE tube for 
+one I had not used from some other 3rd party. Removed the extruder release arm, low and behold the filament had already worn 
+a groove in the arm after only a few weeks of moderate printing. Luckily I believe in spare parts and had printed an extruder 
+assembly called the Bantamfeeder > https://bantam.design/feeder 2 weeks ago, unsure when I would test it. Well guess I'm 
+testing it out now.
+
+So I swapped out the assembly and PTFE tube, viola issue resolved see newly added photos.
+
+USER: SHENKOE (me again)
+WHY YOU NO FEED FILAMENT
+So I wanted to try klipper out, long story short it did not work just yet (configuration issues, will try again later on). 
+Refreshed firmware for Marlin 1.1.9, ran test print starts, purge starts.... Then stops and no filament extruding during print. 
+Stop test again with 4th brim, starts, purge, brim prints, model doesn't. Rinse wash repeat. Checked drivers, voltage good, 
+not overheating. Motors good as commands from terminal work.
+
+Fix: Refreshed Marlin from a fresh edited download. Test print start and extruder feeds during print cycle. Job well done. 
+Issue was original Marlin install was corrupted somewhere, maybe a line was broken while I left it open. Who knows but it is 
+all working fine. Sometimes all you need is a fresh install of Marlin to get the issue gone.
+
+USER: SHENKOE (And again)
+ODB
+So I randomly had z binding issues. I had noticed a stiffer section when moving the z axis manually the other day and thought, 
+it was related to my lead screw nut needing to be loosened and adjusted. So I did that.... BAMMM MOFO!!!!! I had issues with 
+the z moving after I had done it, ran a few test to determine if it was my z axis or the extruder. After further inspection, 
+I discovered dirt, dust, grime and grease built up in the nut that hold the lead screw in place along the Z.
+
+My method involves using my dremel, with the nylon brush tip on low and held it against the lead screw and nut (where they meet), 
+and spun the lead screw manually. Repeat the process on the underside of the nut and lead screw. Once satisfied the screw was 
+cleared and free of debris. I greased that bad boy done with white lithium lubricant. Ran the same model I attempted in the 
+photos and BAMMMM!!!!! Issue resolved. No more bulging or under extrusion on the z axis.
