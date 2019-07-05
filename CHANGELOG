@@ -1,0 +1,72 @@
+##CHANGE LOG
+**6/26/2019**
+- Added a few PDFs for beginner references from rigid.ink.
+- Adding to the introduction an inspirational message from Ed Tyson Founder of The Institute of 3D Printing & rigid.ink.
+- Started the “Nozzle” pdf (more to come not posting until further testing and documentation on nozzles ranging from 0.2mm - 1.0 have been tested properly and with result)
+
+**6/24/2019**
+- Added a calibration test to do large scale steps/mm tests. With secondary test also designed into the modeling ranging from lettering to surface quality. Actually the more I think about it there are tons of little things this model can test. Bed adhesion, lettering, flow rate, printing temps, surface speeds, etc. It all just depends on how you look at it and IF you know what to look for.
+
+**6/18/2019**
+- Reached out the community for addition suggestions to add to the guide. derWaldschrat provided information regarding bed leveling. So if some of you cannot get a good bed level no matter what they do, check the following link under the "advanced bed leveling" section
+
+**6/17/2019**
+- Added PDF for stepper motor swapping and how to identify the wires connections for proper setup.
+Check it out, it has PICTURES AND COLORS.
+- Also added Creawesome profiles for 0.2mm layer height, 2 versions, and one that is heavily edited (so it isn't really Creawesome... new gcode, 90% overhaul on the settings. And a second one that has about 50% of the settings changed. I did this to see how the work against each other. I haven't used the minimum edit version since I made it, so have fun with that. The other I am very proud of. It is a blend of Ender3Guy's profile and adapted to Creawesome (to a degree).
+- Renamed the filament frenzy.....fff profile to S3D filament frenzy.....fff to identify it as an S3D profile
+
+**6/11/2019**
+- Restructure and organization of the guide. Added table of contents to make it easier to locate specific information. Added more printing tips and advice regarding flowrate and bed adhesion. 
+- Added filament splice section and custom coloring filament. More bed leveling info. Basically a ton of useful and useless info, links and quirks
+
+**6/5/2019**
+- Finally added "Cleaning and Preventive Maintenance Checks" (CPMC) section. Included some good links I think some could use, and a few of my one tips and this I came across from others
+
+**6/4/2019**
+- Cleaned out/ removed some old Cura profiles and added a ton of my own profiles @ different layer heights for PLA. (This setting were tested with hatchbox PLA in pink, blue, red, yellow, black, white, and orange. Temps may seem a little high for some (I use an all metal with steel nozzle. Reorganized the order of the files.
+
+**6/3/2019**
+- So I had my first z binding issue. Cause, effect, and resolution with pics (and yep again I forgot to take a photo of the issues. This issue points to why I need to complete the cleaning section of this guide. Shame on me, for poor PMC of my machine.
+
+**6/1/2019**
+- Added update Cura Profile from Ender3Guy. Check files and re-download if you downloaded the original.
+- Been working on an Ender 3 AIO electronics underside drawer. Will not be posted until printed and the post process work is completed with photos. Currently printing version 3.1. Stay tuned!!!!
+- Still haven't adding a cleaning and PMC section. Please be patient.
+
+**5/27/2019**
+- So I forgot the cleaning tips. Will add soon. So I got to print some PETG this weekend and by George I think I got it. Wonderful PETG profile with great support settings for easy and effortless removal. Will post in the next day or two. 
+- Also will be adding a profile for 0.08mm layer height see the pics of the gold Anubis @ 0.08mm
+
+**5/20/2019**
+- Birthday season is over I can update this more promptly now. So BIG SHOUT OUT TO @darcdrake for supplying the community with a S3D profile settings file for the Ender 3 /Pro. Since I do not have S3D this is very helpful, and will help those that do. 
+- Still working on a Slic3r PE profile, I have just not had the time to intently sit and adjust over and over for the few weeks, hopefully one coming soon from me or from another group member. 
+- Check the thing files for the S3D file.*
+- Adding simple cleaning steps to prevent unnecessary issues
+
+**5/12/2019**
+- Adding fix in "User Fixes" for extruder not feeding filament during print, but feeds filament for purge, skirts, brims, and rafts. I looked around for a fix to my issue and could not find an answer to my issue. Back story leading up to issue, what I tried and tested, and what actually fixed it. Sorry no video showing the issue, as it doesn't cross my mind unless I reach out for help. (Note to self, start documenting your own issues with videos for others to reference)
+
+**5/6/2019**
+- Not much has needed to be added as of the last change that I can think of. I believe this is helping a lot of folks, as I have seen a big decrease in post regarding issues. One issue not covered here is under-extrusion from moisture ridden filaments. 
+- Adding to users fixes with attributing parties listed.
+
+**4/29/2019**
+- Added a section for Slicer profiles, if anyone has others please post, them in the comments so they can be tested. Please state slicer used and example prints of said profile.
+
+**4/29/2019**
+- Added a Cura Profile settings, which was graciously provided by @Ender3Guy on this thread https://www.thingiverse.com/groups/ender3/forums/general/topic:36169#comment-2470647. The profile works fine as is, albeit, there are something I would change personally. The OP has denoted areas of change per some suggestions.
+- I have also made my own version of the same profile to be in line with using the Micro Swiss All Metal Hotend, which has a shorter retraction (3-4 mm) distance. Adjusted support settings, was set to everywhere and was also very hard to remove, not an issue if you are not using supports. Temp can be too high for some filaments, again I use an all metal with a steel nozzle, so I need higher temps (5-10°C) either way.
+- There are many other changes I made for my printer specifically, so take both and try them out. I suggest using the original profile for any not sure what to set their own settings to and go from there making your own slight changes and then testing. I tested the original 10 times with different setting adjusted to find my personal favorite
+- Cura Profiles added to files section for ease of access. All official credit for the profiles go to @Ender3Guy
+
+**4/25/2019**
+- Added under extrusion issue that I, the OP for this guide, experienced.
+
+**4/22/2019**
+- Rearranged some things in the text. Kind of threw everything together as it was found or provided to me. Just basically made it easier to read through. So structural and literacy edits, nothing more
+- Added Fixes
+- User @TheMagicalC added a great suggestion regarding belt tension. Which I had done myself as well, but did not think much of it as it was sensible for me to do, though some might not think as simply as I and TheMagicalC had done. See "user fixes" section below
+
+**04/20/2019**
+- Added Reddit Link for Fixes, upgrade fixes, and common issues
