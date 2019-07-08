@@ -27,3 +27,5 @@ INTRODUCTION
 - Coloring Filament
 - Splicing Filament for Multicolor or Continuous long prints
 - OCTOPRINT Coming soon
+
+THE ORIGINAL CAN BE FOUND ON THINGVERSE, WITH MORE COMPLETE INFORMATION. https://www.thingiverse.com/thing:3574369
